@@ -1,0 +1,30 @@
+header {
+  background-color: aqua;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.input {
+  position: absolute;
+  margin-top: 85px;
+}
+#root {
+  font-family: sans-serif;
+}
+a {
+  width: 80px;
+  height: 80px;
+  border: 5px solid wheat;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: spin 0.5s linear infinite;
+  position: absolute;
+  left: calc(45%);
+  top: calc(50%);
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
