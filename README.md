@@ -20,6 +20,9 @@ Nele é possível pesquisar os significados de inúmeras palavras e obtê-los em
 - HTML <img align="center" alt="Js" height="20" width="20" src="https://cdn-icons-png.flaticon.com/512/246/246185.png">
 - CSS <img align="center" alt="Js" height="20" width="20" src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
 
+## API utilizada (endpoint)
+- https://api.dictionaryapi.dev/api/v2/entries/en/
+
 ## Entre em contato
   
 - William Gomes
