@@ -115,7 +115,7 @@ class Dictionary {
         //phoneticAudio.autoplay = "autoplay";
         phoneticAudio.controls = "controls";
         const audioSource = document.createElement('source');
-        audioSource.src = 'https:' + data.phonetics[0].audio;
+        audioSource.src = data.phonetics[0].audio;
         phoneticAudio.appendChild(audioSource);
 
         wordItem.appendChild(phonetic);
