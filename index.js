@@ -9,6 +9,9 @@ class Dictionary {
     this.errorMessage = this.errorMessage.bind(this);
     const submitButton = document.querySelector('button');
     submitButton.addEventListener('click', this.onSubmit);
+    document.body.addEventListener('keypress', (event) => {
+      if (event.keyCode === 13) this.onSubmit();
+    });
   }
 
   onSubmit(event) {
